@@ -1,0 +1,83 @@
+body {
+  background-color: #db896f;
+}
+
+#home {
+	background-color: #FFC0CB;
+}
+
+#journeys {
+	background-color: #63C5DA;
+}
+#destinations {
+	background-color: red;
+}
+#about {
+	background-color: green;
+}
+ul {
+  list-style-type: none;
+  margin: 0 0 0 25px;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+}
+.active {
+  background-color: #3EB489;
+}
+li a:hover {
+  background-color: #3EB489;
+}
+.portrait {
+  width: 500px;
+}
+header h2 {
+  margin: 0;
+  padding: 40px;
+}
+header h2 {
+  font-family: "Trirong", serif;
+}
+
+#container {
+  width: 1100px;
+  margin: 0 auto;
+  background-color: #8a8dd4;
+}
+.two-column {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 40px;
+}
+footer {
+  padding: 40px;
+}
+footer p {
+  margin: 0;
+}
+.social-icons {
+  color: #aaaaaa;
+  width: 1100px;
+  margin-left: 400px;
+
+}
+.social-icons:hover {
+  color: #333333;
+}
+.social-icons {
+  padding: 40px;
+}
+.social-icons img {
+  height: 30px;
+}
