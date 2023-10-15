@@ -3,17 +3,17 @@ body {
 }
 
 #home {
-	background-color: #FFC0CB;
+	background-color: #f7b971;
 }
 
 #journeys {
 	background-color: #63C5DA;
 }
 #destinations {
-	background-color: red;
+	background-color:#918a7f ;
 }
 #about {
-	background-color: green;
+	background-color: #52aa88;
 }
 ul {
   list-style-type: none;
@@ -24,26 +24,28 @@ ul {
 li {
   float: left;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
 }
 li a {
   display: block;
-  color: white;
+  color: #a53c02;
   text-align: center;
-  padding: 14px 26px;
+  padding: 18px 30px;
   text-decoration: none;
+  font-weight: bold;
 }
 .active {
-  background-color: #3EB489;
+  background-color: #c6d5db;
 }
 li a:hover {
-  background-color: #3EB489;
+  background-color: #c6d5db;
 }
 .portrait {
-  width: 500px;
+  width: 490px;
+  height: 600px;
+  display: block;
 }
 header h2 {
-  margin: 0;
   padding: 40px;
 }
 header h2 {
@@ -53,7 +55,7 @@ header h2 {
 #container {
   width: 1100px;
   margin: 0 auto;
-  background-color: #8a8dd4;
+  background-color: #a8d5e5;
 }
 .two-column {
   display: grid;
@@ -80,4 +82,60 @@ footer p {
 }
 .social-icons img {
   height: 30px;
+}
+.social-iconss{
+  margin-left: 550px;
+  color: #aaaaaa;
+  width: 1100px;
+}
+.social-iconss img {
+  height: 30px;
+}
+.two-column div {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#journeys .two-column div {
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 400px;
+}
+.paragraph-text {
+  text-align: center;
+}
+.zakopane {
+  width: 490px;
+  height: 400px;
+}
+.spicespicture {
+  width: 490px;
+  height: 400px;
+}
+.borjomi {
+  width: 490px;
+  height: 400px;
+}
+.barcelona {
+  width: 490px;
+  height: 400px;
+  display: block;
+}
+.roma {
+  width: 490px;
+  height: 400px;
+  display: block;
+}
+.self-portrait {
+  width: 490px;
+  height: 600px;
+  display: block;
+}
+.button {
+  display: block;
+  margin: auto;
+}
+p {
+  font-size: 18px;
+  line-height: 2em;
+  margin-bottom: 32px;
 }
